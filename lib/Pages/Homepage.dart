@@ -37,7 +37,9 @@ class _HomepageState extends State<Homepage> {
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("3 months"),
+                    Text("3 months",style: TextStyle(
+                      fontSize: 25,
+                    ),),
                     Text("Rs 20000"),
                   ],
                 ),
